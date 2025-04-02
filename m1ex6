@@ -5,7 +5,7 @@ E retorna:
 • R12 → Resultado (16 bits)
 Teste a sua sub-rotina p/ os casos extremos e para casos intermediários. Exemplo: zero vezes 
 alguma coisa, máximo vezes máximo e X vezes Y.
-```assembly
+```Assembly
     .cdecls "msp430.h"
     .global main
     .text 
