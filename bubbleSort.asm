@@ -26,7 +26,7 @@ bubbleSortInLoop:
     mov.b   @R12,R5
     cmp     R4,R5
     jn      swap
-    jnz     no_swap
+    jge     no_swap
 
 swap:
     mov.b   @R12,R6
